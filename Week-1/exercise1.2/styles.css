@@ -74,3 +74,28 @@ aside {
     border: 1px solid black;
     padding: 3px;
   }
+  /* footer added */
+  .footer-section{
+    background-color: var(--bg-blue);
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: white;
+  }
+  .left-footer-sec{
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-icon{
+    margin: 2.5rem;
+  }
+  .footer-playlist{
+    margin: 1rem;
+  }
+  .footer-img{
+    width: 10rem;
+    height: 10rem;
+  }
