@@ -50,3 +50,27 @@ aside {
   article{
     display: block;
   }
+  /* table */
+  table {
+    border-collapse: separate;
+    width: 95%;
+    float: right;
+    /* margin-top: -18rem; */
+    border-spacing: 0 0.5em;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  table tr{
+    margin: 5px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  td a{
+    border: 1px solid black;
+    padding: 3px;
+  }
