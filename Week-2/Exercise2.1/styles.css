@@ -28,6 +28,12 @@ header{
 /* book section */
 .book-container{
     width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f1f5f9;
+    margin: 5px;
 }
 .book-img{
     width: 15rem;
@@ -39,13 +45,13 @@ header{
     align-items: center;
     justify-content: center;
 }
-.dis-row{
+/* .dis-row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
+} */
 .para{
     width: 15rem;
     
