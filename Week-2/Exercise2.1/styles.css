@@ -64,9 +64,17 @@ header{
 .contact-me-container{
     display: flex;
     flex-direction: column;
-    /* background-color:#f1f5f9 ; */
     width: 80%;
     padding: 1rem;
+    border: 1.5px solid var(--clr-primary);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+input:focus{
+    outline: none !important;
+    border-color: var(--clr-primary);
+    /* box-shadow: 0 0 10px #719ECE; */
+
 }
 .contact-me-title{
     color: var(--clr-primary);
@@ -83,6 +91,19 @@ input{
     background: transparent;
     border: none;
     border-bottom: 2px solid black;
+}
+button{
+    background-color: transparent;
+    border: 2px solid var(--clr-primary);
+    font-size: 1.2em;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: var(--clr-primary);
 }
 footer{
     display: flex;
