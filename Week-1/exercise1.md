@@ -39,7 +39,8 @@ The rendering engine displays the requested content. For example, if the request
 A rendering engine draws text and images on the screen. The engine draws structured text from a document from HTML, and formats it properly based on the given styles provided in CSS. Examples of layout engines: Blink, Gecko, EdgeHTML, and WebKit.
 ## Q F - Tree construction
 The DOM tree is essentially the tree containing all web HTML elements, whereas the render tree is the top of the DOM and CSSOM trees. The render tree is the one that is actually rendered onto the page.
-
 ## Q H - Layout and Painting
    It looks into the elements and figures out where it needs to go on the page. It will see the sizes and position of the elements and try to calculate the line breaks, placement of each of the elements and the relationship between the elements. It already sounds like a lot of work and is a slow process.
+   [![domTree.png](https://i.postimg.cc/Z5G2mVrH/domTree.png)]
+
 
